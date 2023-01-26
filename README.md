@@ -1,7 +1,7 @@
 # Personal Portfolio 🔥
 ### Website Preview:
 #### Home Page:
-<img src="assets/img/website_images/home.gif" width="900">
+<img src="assets/images/home.gif" width="900">
 
 
 :star: Star me on GitHub — it helps!
