@@ -10,14 +10,42 @@
 
 <url>
   <loc>https://ayazvefa.dev/</loc>
-  <lastmod>2023-02-03T19:05:47+00:00</lastmod>
+  <lastmod>2023-03-26T10:20:47+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://ayazvefa.dev/assets/cv/Resume%20-%20Vefa%20Ayaz.pdf</loc>
-  <lastmod>2023-02-03T19:05:47+00:00</lastmod>
+  <lastmod>2023-03-26T10:20:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
-
+<url>
+  <loc>https://ayazvefa.dev/home</loc>
+  <lastmod>2023-03-26T10:20:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ayazvefa.dev/header</loc>
+  <lastmod>2023-03-26T10:20:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ayazvefa.dev/about</loc>
+  <lastmod>2023-03-26T10:20:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ayazvefa.dev/projects</loc>
+  <lastmod>2023-03-26T10:20:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ayazvefa.dev/skills</loc>
+  <lastmod>2023-03-26T10:20:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ayazvefa.dev/contact</loc>
+  <lastmod>2023-03-26T10:20:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 </urlset>
