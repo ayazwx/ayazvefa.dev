@@ -61,6 +61,11 @@ at ALKU. I interest in React.js and I am also learning Node.js for backend."
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div id="loader">
+      <div class="lds-hourglass"></div>
+      <p>LOADING...</p>
+    </div>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -72,6 +77,13 @@ at ALKU. I interest in React.js and I am also learning Node.js for backend."
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+      const loader = document.getElementById("loader")
+       $(window).on('load', function() {
+        loader.style.display = "none";
+      });
+    </script>
 
     <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
