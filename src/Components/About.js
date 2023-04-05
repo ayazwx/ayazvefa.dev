@@ -45,7 +45,7 @@ const About = () => {
                   Education
                 </p>
               </div>
-              <div className={`tab-contents ${activeTab[0]}-tab`} id="interests" data-aos="fade-up">
+              <div className={`tab-contents ${activeTab[0]}-tab`} id="interests">
                 <ul>
                   <li>
                     <span>Web Development</span>
