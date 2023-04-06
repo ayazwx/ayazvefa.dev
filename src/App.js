@@ -1,5 +1,5 @@
 import "./App.css";
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import React from "react";
 import Home from './Pages/Home'
 import ErrorPage from "./Pages/404";
@@ -21,7 +21,7 @@ function App() {
       });
       }, [])
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/home" element={<Home />} />
@@ -33,7 +33,7 @@ function App() {
         <Route exact path="/contact" element={<div><Header  links={"/"}/> <Contact /> <Footer /></div>} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
