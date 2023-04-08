@@ -21,7 +21,7 @@ function App() {
       });
       }, [])
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/home" element={<Home />} />
